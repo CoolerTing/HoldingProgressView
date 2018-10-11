@@ -27,10 +27,10 @@ StripeProgressBar *stripe = [[StripeProgressBar alloc]initWithFrame:CGRectMake(1
     _stripe = stripe;
     [holdingView addSubview:stripe];
 ```
-#### imageBlock
+### imageBlock
 百分比回调，进度为20%，40%，60%，80%回调，显示成功状态图标，可在block里自行操作。
 
-#### 设置进度动画
+### 设置进度动画
 ```objective-c
 [_stripe setProgress:1 duration:15 completion:^{
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
