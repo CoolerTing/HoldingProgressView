@@ -39,7 +39,7 @@ StripeProgressBar *stripe = [[StripeProgressBar alloc]initWithFrame:CGRectMake(1
     }];
 ```
 
-### 参数
+## 参数
 * progress：需要达到的进度百分比(0 - 1)
 * duration：动画时长
 * completion：动画完成回调
