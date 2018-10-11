@@ -16,7 +16,8 @@
 #import "StripeProgressBar.h"
 ```
 创建对象
-```StripeProgressBar *stripe = [[StripeProgressBar alloc]initWithFrame:CGRectMake(10, infoView.frame.origin.y + infoView.frame.size.height + 25, holdingView.frame.size.width - 20, 50)];
+```
+StripeProgressBar *stripe = [[StripeProgressBar alloc]initWithFrame:CGRectMake(10, infoView.frame.origin.y + infoView.frame.size.height + 25, holdingView.frame.size.width - 20, 50)];
     stripe.imageBlock = ^(NSInteger index) {
         UIImageView *arrowImageView = imageArray[index];
         [UIView animateWithDuration:0.2 animations:^{
